@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: salesforce-python-toolkit
+  description: (Mirrored) The goal of this project is to provide a thin layer around
+    the Salesforce SOAP messaging that consumes both the Enterprise and Partner WSDL
+    formats and implements the Salesforce API 17.0 spec.
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/salesforce-python-toolkit
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Python
